@@ -2,5 +2,9 @@
 import React from "react";
 
 export default function Title(props) {
-  return <p>{props.content}</p>;
+  return (
+    <div className="Titlebody">
+      <div class="title-body my-5 mb-4">{props.content}</div>
+    </div>
+  );
 }

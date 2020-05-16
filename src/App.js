@@ -44,6 +44,8 @@ function App() {
         <Title content="Grapje" />
         {
             pokemons.map(pokemon => <Pokemon {...pokemon} />);
+//             pokemons.map(pokemon => <Pokemon name={pokemon.name} etc.. />);
+//             pokemons.map(pokemon => <Pokemon {pokemon} />);
         }
       </main>
       <header className="App-header">
